@@ -1,0 +1,21 @@
+{
+  "name": "fulfillment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.4",
+    "morgan": "^1.10.0",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.0.1"
+  }
+}
